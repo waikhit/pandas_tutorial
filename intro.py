@@ -10,7 +10,7 @@ style.use('ggplot')
 start = datetime.datetime(2010, 1, 1)
 end = datetime.datetime(2015, 1, 1)
 
-df = web.DataReader('XOM', 'yahoo', start, end)
+df = web.DataReader('XOM', 'google', start, end)
 
 print(df.head())
 
